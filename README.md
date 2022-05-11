@@ -48,12 +48,12 @@ moved {
 }
 ```
 
-```
+
 11. Now if you execute ```terraform apply``` you will see that there are no changest that are going to be made
 ```
 module.move_state.random_pet.name: Refreshing state... [id=possibly-ultimately-talented-hound]
 null_resource.hello: Refreshing state... [id=8094107985401697956]
-
+```
 Terraform will perform the following actions:
 ```
   # random_pet.name has moved to module.move_state.random_pet.name
